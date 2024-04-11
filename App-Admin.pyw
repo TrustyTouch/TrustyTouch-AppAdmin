@@ -96,7 +96,7 @@ class ProfileApp:
         window.title(f"{action} un profil")
         window.geometry("300x200")
 
-        fields = ["nom", "code_parainage"]
+        fields = ["nom", "code_parainage","biographie"]
         if action == "Créer":
             fields.append("mot_de_passe")
         entries = {}
